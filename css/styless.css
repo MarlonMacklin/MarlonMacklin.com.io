@@ -1,0 +1,137 @@
+
+/* Made by Marlon Macklin on //23*/
+*/
+
+/*css reset*/
+body, header, nav, main, footer, h1, div, img, ul{
+	margin: 150;
+	padding: 10;
+	border: 100;
+}
+body{
+color:#fff;
+}
+body{
+	animation: color-change 5s infinite;}
+
+	@keyframes color-change {
+		30% { background-color: black; }
+		50% { background-color: rgb(146, 13, 40); }
+		100% { background-color: rgba(77, 1, 77, 0.986); }
+}
+img{
+	max-width: 100%;
+	display: block;
+}
+/* Style rules for mobile viewport */
+header{
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	background-color:#600;
+	height: 150px;
+}
+header img{
+	margin: 5;
+}
+nav{
+	padding: 2%;
+	margin-bottom: 1%;
+	text-align: center;
+}
+main{
+	background-color: #600;
+	padding: 2%;
+	font-size: 1.25em;
+	font-family: 'Roboto Slab', serif;
+}
+.tel-link{
+	background-color: #600;
+	padding: 2%;
+	margin: 0 auto;
+	width: 80%;
+	text-align: center;
+	border-radius: 5px;
+}
+.tel-link{
+	color:#fff;
+	text-decoration: none;
+	font-size: 1.5em;
+	display: block;
+}
+.hours{
+	margin-left: 10%;
+}
+.action{
+	font-size: 1.35em;
+	color: #600;
+	font-weight: bold;
+}
+.external-link{
+	text-decoration: none;
+	color: #660;
+	font-weight: bold;
+}
+#weights, #cardio, #training{
+	margin: 0 2%;
+}
+.round{
+	border-radius: 8px;
+}
+/*#exercises{
+	clear: left;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	background-color: #f2f2f2;
+	padding: 1% 2%;
+}
+#exercises dt{
+	font-weight: bold;
+}
+#exercises dd{
+	padding: .5% 1% 2% 0;
+}*/
+#contact{
+	text-align: center;
+}
+#contact .contact-email-link{
+	text-decoration: none;
+	color: #660; /*666600*/
+}
+nav ul{
+	list-style-type: thick;
+	text-align: center;
+	
+}
+nav li{
+	font-size: 1.5em;
+	font-family: sans-serif, 'Francois-one';
+	border-top: 1px solid black;
+}
+nav li:first-child{
+	border-top: thick;
+}
+nav li a{
+	display: block;
+	color: black;
+	padding: .5em 1em;
+	text-decoration: none;
+}
+/*show mobile class, hide table-desktop class*/
+.mobile{
+	display: block;
+}
+.table-desktop{
+	display: none;
+}
+
+footer p{
+	font-size: .75em;
+	text-align: center;
+	color: #fff;
+	padding: 0 1em;
+}
+footer p a{
+	color: #fff;
+	text-decoration: none
+}
