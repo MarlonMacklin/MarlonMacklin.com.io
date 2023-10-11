@@ -15,24 +15,31 @@ body{
 	animation: color-change 5s infinite;}
 
 	@keyframes color-change {
-		30% { background-color: black; }
-		50% { background-color: rgb(146, 13, 40); }
-		100% { background-color: rgba(77, 1, 77, 0.986); }
+		20% { background-color: black; }
+		40% { background-color: rgb(146, 13, 40); }
+		60% { background-color: rgba(77, 1, 77, 0.986); }
+		80%{ background-color: rgba(0, 128, 0, 0.747); }
+		100%{ background-color: rgba(128, 128, 128, 0.507); }
 }
 img{
 	max-width: 100%;
 	display: block;
 }
 /* Style rules for mobile viewport */
-header{
+head{
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
-	background-color:#600;
 	height: 150px;
+	block-size: 2%;
 }
-header img{
+head img{
 	margin: 5;
+}
+ a{
+	color: #660;
+	font-size: big;
+	display:inline-block;
 }
 nav{
 	padding: 2%;
@@ -45,26 +52,26 @@ main{
 	font-size: 1.25em;
 	font-family: 'Roboto Slab', serif;
 }
-.tel-link{
+body ul a{
+	text-align: left;
 	background-color: #600;
-	padding: 2%;
-	margin: 0 auto;
-	width: 80%;
-	text-align: center;
-	border-radius: 5px;
 }
-.tel-link{
-	color:#fff;
+body li{
 	text-decoration: none;
 	font-size: 1.5em;
 	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 17%;
 }
-.hours{
-	margin-left: 10%;
+header h1{
+	background-color: #600;
+	font-size: 2.5em;
+	border-style: bold;
 }
-.action{
+header{
 	font-size: 1.35em;
-	color: #600;
+	color: #fff;
 	font-weight: bold;
 }
 .external-link{
@@ -78,19 +85,6 @@ main{
 .round{
 	border-radius: 8px;
 }
-/*#exercises{
-	clear: left;
-	border-top: 1px solid #000;
-	border-bottom: 1px solid #000;
-	background-color: #f2f2f2;
-	padding: 1% 2%;
-}
-#exercises dt{
-	font-weight: bold;
-}
-#exercises dd{
-	padding: .5% 1% 2% 0;
-}*/
 #contact{
 	text-align: center;
 }
@@ -98,18 +92,15 @@ main{
 	text-decoration: none;
 	color: #660; /*666600*/
 }
-nav ul{
-	list-style-type: thick;
-	text-align: center;
-	
+nav ul {
+	margin-left: auto;
+	margin-right: auto;
+	width: 17%;
 }
 nav li{
 	font-size: 1.5em;
 	font-family: sans-serif, 'Francois-one';
 	border-top: 1px solid black;
-}
-nav li:first-child{
-	border-top: thick;
 }
 nav li a{
 	display: block;
@@ -133,5 +124,5 @@ footer p{
 }
 footer p a{
 	color: #fff;
-	text-decoration: none
+	text-decoration: none;
 }
