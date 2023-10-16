@@ -39,6 +39,7 @@ body {
 /* fixed */
 .fixed{
     position: fixed;
+    position: -webkit-sticky;
     margin-top: -650px;
     margin-left: 1320px;
 }
