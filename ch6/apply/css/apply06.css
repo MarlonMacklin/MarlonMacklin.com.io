@@ -49,15 +49,15 @@ footer {
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 481px) 
 {
-    footer{
-        float: center;
-    }
     article{
         width: 43%;
         float: left;
         height: 160px;
     }
 
+    footer{
+        float: center;
+    }
     /* Media Query for Desktop Viewport */
     @media screen and (min-width: 900px)
     {
