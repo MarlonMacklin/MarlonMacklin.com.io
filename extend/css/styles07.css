@@ -1,0 +1,52 @@
+/*
+Author: marlon Macklin
+Date: 10/26/23
+File Name: extend07
+*/
+
+/* CSS Reset */
+body, header, main, footer, h1, h3, div, p, section, article, aside{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rule for body */
+body {
+	background-color: #dfe7c4;
+}
+section{
+  width: 350px;
+  border-right: 2px solid #628c45;
+   }
+   article{
+	display: flex;
+	justify-content: flex-start;
+	justify-content: space-evenly;
+}
+
+/* Style rule for header */
+header {
+	font-family: Verdana, Arial, sans-serif;
+	margin-top: 0.2em;
+	background-color: #628c45;
+	color: #dfe7c4;
+	padding: 2%;
+    text-align: center;
+}
+
+/* Style rules for main content  */
+main {
+	padding: 1em;
+	background-color: #fff;
+}
+
+aside {
+    padding: 2%;
+	text-align: center;
+}
+
+footer {
+	font-size: .70em;
+	text-align: center;
+}
