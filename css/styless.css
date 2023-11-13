@@ -10,16 +10,24 @@ body, header, nav, main, footer, h1, div, img, ul{
 }
 body{
 color:#fff;
+text-shadow: 2px 2px 5px red;
 }
 body{
 	animation: color-change 5s infinite;}
 
 	@keyframes color-change {
 		20% { background-color: black; }
-		40% { background-color: rgb(146, 13, 40); }
-		60% { background-color: rgba(77, 1, 77, 0.986); }
+		40% { background-color: rgba(77, 1, 77, 0.986); }
 		80%{ background-color: rgba(0, 128, 0, 0.747); }
 		100%{ background-color: rgba(128, 128, 128, 0.507); }
+}
+div{
+	display: grid;
+	
+  }
+.grid-item{
+	color: white;
+	border: 2px solid
 }
 img{
 	max-width: 100%;
