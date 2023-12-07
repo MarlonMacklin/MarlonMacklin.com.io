@@ -1,0 +1,58 @@
+/*
+Author: Marlon Macklin
+Date: 11/8/2023
+File Name: Apply ch 8
+*/
+
+/* CSS Reset */
+body, main, footer, table {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rule for body */
+body {
+	background-color: #d1aea1;
+}
+
+/* Style rule for the container */
+#container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* Style for the footer element */
+footer {
+	font-size: .70em;
+	text-align: center;
+}
+table{
+	width: 100%;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	margin-right: auto;
+	margin-left: auto;
+	border: 3px solid #fd4d0c;
+}
+table, tr, th, td {
+	border-collapse: collapse;
+	padding: 2%;
+	
+  }
+caption{
+	font-size: 2em;
+	padding:2%;
+	margin-top: 2%;
+}
+th,td{
+	border: 1px solid #d1aea1;
+	text-align: center;
+}
+
+th{
+	background-color: #792101;
+}
+tr:nth-child(odd){
+	background-color: #fe9772
+}
