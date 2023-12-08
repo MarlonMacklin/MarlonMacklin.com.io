@@ -17,8 +17,8 @@ body{
 
 	@keyframes color-change {
 		20% { background-color: black; }
-		40% { background-color: rgba(77, 1, 77, 0.986); }
-		80%{ background-color: rgba(0, 128, 0, 0.747); }
+		40% { background-color: rgba(128, 128, 128, 0.507); }
+		80%{ background-color: rgb(0, 0, 0); }
 		100%{ background-color: rgba(128, 128, 128, 0.507); }
 }
 div{
@@ -45,7 +45,7 @@ head img{
 	margin: 5;
 }
  a{
-	color: #660;
+	color: blue;
 	font-size: big;
 	display:inline-block;
 }
@@ -133,4 +133,75 @@ footer p{
 footer p a{
 	color: #fff;
 	text-decoration: none;
+
+/*Tic-tack-toe game*/
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Itim', cursive;
+	
+}
+.background{
+	background-color: #12181B;
+	height: 100vh;
+	padding-top: 1px;
+}
+.title{
+	color: white;
+	text-align: center;
+	font-size: 40px;
+	margin-top:10%;
+}
+.display{
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.hide{
+	display: none;
+}
+.container{
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	grid-template-rows: 33% 33% 33%;
+	max-width: 300px;
+}
+.tile {
+    border: 1px solid white;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+.playerX {
+    color: #09C372;
+}
+
+.playerO {
+    color: #498AFB;
+}
+.controls{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1em;
+}
+
+#reset {
+	background-color: #FF3860;
+	color: white;
+	padding: 8px;
+	border-radius: 8px;
+	border: none;
+	font-size: 20px;
+	margin-left: 1em;
+	cursor: pointer;
 }
