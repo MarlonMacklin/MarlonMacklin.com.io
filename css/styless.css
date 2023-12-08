@@ -131,6 +131,7 @@ footer p{
 	padding: 0 1em;
 }
 footer p a{
+	text-align: right;
 	color: #fff;
 	text-decoration: none;
 
