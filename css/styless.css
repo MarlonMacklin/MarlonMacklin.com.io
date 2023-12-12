@@ -206,3 +206,6 @@ footer p a{
 	margin-left: 1em;
 	cursor: pointer;
 }
+form{
+	align-content: center;
+}
