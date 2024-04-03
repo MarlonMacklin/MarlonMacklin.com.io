@@ -9,7 +9,7 @@
       Tinley Xeriscapes
       Plants web page
       Author: Marlon Macklin
-      Date:   
+      Date: 4/3/2024  
 
       Filename: js01.html
    -->
@@ -19,6 +19,7 @@
    <link rel="stylesheet" media="screen and (max-device-width: 999px)" href="tinleyhand.css" />
    <link rel="stylesheet" media="screen and (min-device-width: 1000px)" href="tinley.css" />
    <link href="http://fonts.googleapis.com/css?family=Lily+Script+One" rel="stylesheet" type="text/css">
+   <script src= "js01b.js" defer></script>
 </head>
 
 <body>
@@ -42,39 +43,17 @@
       </nav>
         
       <aside>
-        <ul>
-            <li id="blanket" onclick="document.getElementById('plantImg').src = blanket;">Blanket Flower</li>
-            <li id="blanket" onclick="document.getElementById('plantImg').src = rugosa;">Hedge Rose</li>
-            <li id="blanket" onclick="document.getElementById('plantImg').src = bluestem;">Little Bluestem</li>
-        </ul>
-    </aside>           
+         <ul>
+            <li id="blanket">Blanket Flower</li>
+            <li id="rugosa">Hedge Rose</li>
+            <li id="bluestem">Little Bluestem</li>
+         </ul>
+      </aside>
     
       <article>   
          <figure>
             <img src="#" alt="" title="" id="plantImg" />         
-            <figcaption id="imgCaption">
-                <script>
-                    document.write("<p>Plant choises for ");
-                    document.write("<a href='http://planthardiness.ars.usda.gov'>");
-                    document.write("hardiness zones</a>");
-                    document.write(" 5a - 6b </p>"); // hardiness zones for Chicago and surrounding area
-
-                    //define variables containing plant file names
-                    let blanket = "blanket.jpg";
-                    let rugosa = "rugosa.jpg";
-                    let bluestem = "bluestem.jpg";
-
-                  
-                    /*
-                    Information on available plants 
-                    including link to USDA website
-                    */
-                   let captionText = "<p>Plant choises for " +
-                                    "<a href='http://planthardiness.ars.usda.gov'>" +
-                                    "hardiness zones</a>" +
-                                     " 5a - 6b </p>";
-                    document.getElementById("imgCaption").innerHTML = captionText;
-                </script> 
+            <figcaption id="imgCaption">            
             </figcaption>
          </figure>       
       </article>
