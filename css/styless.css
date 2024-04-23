@@ -13,13 +13,7 @@ color:#fff;
 text-shadow: 2px 2px 5px red;
 }
 body{
-	animation: color-change 5s infinite;}
-
-	@keyframes color-change {
-		20% { background-color: black; }
-		40% { background-color: rgba(128, 128, 128, 0.507); }
-		80%{ background-color: rgb(0, 0, 0); }
-		100%{ background-color: rgba(128, 128, 128, 0.507); }
+	background: linear-gradient(to right, #74ebd5, #ACB6E5);
 }
 body-img{
 	
@@ -39,11 +33,16 @@ head{
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
-	height: 150px;
+	height: 300px;
 	block-size: 2%;
 }
 head img{
 	margin: 5;
+}
+div.a{
+	width: 150px;
+ 	height: 80px;
+	text-align: right;
 }
  a{
 	color: green;
@@ -56,8 +55,7 @@ nav{
 	text-align: center;
 }
 main{
-	background-color: #600;
-	padding: 2%;
+	padding: .75;
 	font-size: 1.25em;
 	font-family: 'Roboto Slab', serif;
 }
@@ -99,6 +97,7 @@ header{
 }
 #contact .contact-email-link{
 	text-decoration: none;
+	width: 2%;
 	color: #660; /*666600*/
 }
 nav ul {
@@ -125,20 +124,15 @@ nav li a{
 	display: none;
 }
 
-footer{
+footer p{
 	font-size: .75em;
-	text-align: center;
 	color: #fff;
-	
+	padding: .55em;
+	text-align: center;
 }
-footer p a{
-	text-align: center;
-	color: #fff;
-	text-decoration: none;
-	padding: 1em;
+
 
 /*Tic-tack-toe game*/
-}
 * {
     padding: 0;
     margin: 0;
@@ -146,7 +140,7 @@ footer p a{
 	
 }
 .background{
-	background-color: #12181B;
+	
 	height: 100vh;
 	padding-top: 1px;
 }
@@ -202,12 +196,14 @@ footer p a{
 	background-color: #FF3860;
 	color: white;
 	padding: 8px;
-	border-radius: 8px;
+	border-radius: 12px;
 	border: none;
 	font-size: 20px;
 	margin-left: 1em;
 	cursor: pointer;
 }
+/*Tic-Tac-Toe end*/
+
 form{
 	align-content: center;
 	position: relative;
@@ -226,58 +222,77 @@ form{
   from {left: 1000px;}
   to {left: 0px;}
 }
-a :hover{
-	transform: scale(1.3);
-	background-color: #fff;
-	color: green
-}
-.frame:hover {
-	opacity: 1;
-	box-shadow: 8px 8px 10px #808080;
-	transform: translateY(10px);
-}
 
-/* Style the navigation menu */
-.topnav {
-	overflow: hidden;
-	background-color: #333;
+
+  
+
+  /*Box Quotes*/
+  * {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+ }
+ 
+
+ 
+ /* HTML5 display-role reset for older browsers */
+ article, aside, details, figcaption, figure, 
+ footer, header, hgroup, menu, nav, section {
+	display: block;
+ }
+ 
+ body {
+	line-height: 1;
+	width: 960px;
+	
+	margin: 0 auto;
+	font-family: Verdana, Geneva, sans-serif; 
+ }
+ 
+ ol, ul {
+	list-style: none;
+ }
+ 
+ /* page header */
+ header {
+	width: 100%;
+	font-size: 48px;
+	text-align: center;
+	line-height: 1.5em;
+ }
+ 
+ /* main content */
+ article {
+	width: 960px;
+	height: 450px;
+	text-align: center;
+	
 	position: relative;
-  }
-  
-  /* Hide the links inside the navigation menu (except for logo/home) */
-  .topnav #myLinks {
-	display: none;
-  }
-  
-  /* Style navigation menu links */
-  .topnav a {
-	color: white;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 17px;
-	display: block;
-  }
-  
-  /* Style the hamburger menu */
-  .topnav a.icon {
-	background: crimson;
-	display: block;
-	position: absolute;
-	right: 0;
-	top: 0;
-  }
-  
-  /* Add a grey background color on mouse-over */
-  .topnav a:hover {
-	background-color: #ddd;
-	color: black;
-  }
-  
-  /* Style the active link (or home/logo) */
-  .active {
-	background-color: #04AA6D;
-	color: white;
-  }
-
-  
-  
+ }
+ 
+ article h2 {
+	font-weight: normal;
+	font-size: 1em;
+	padding: 20px 0 10px 0;
+	text-align: center;
+	margin: 0;
+ }
+ 
+ blockquote {
+	width: 760px;
+	height: 400px;
+	padding: 40px;
+	display: flex;
+	align-items: center;
+	font-size: 3em;
+	line-height: 1.4;
+	text-align: center;
+	margin: 4px auto;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	border: 15px solid transparent;
+	border-image: 20%;  
+ }
+	
+ 
+ 
+/* end box quotes*/	
