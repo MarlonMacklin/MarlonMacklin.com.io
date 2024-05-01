@@ -34,7 +34,7 @@ head{
 	position: sticky;
 	top: 0;
 	height: 300px;
-	block-size: 2%;
+	block-size: 4%;
 }
 head img{
 	margin: 5;
@@ -129,6 +129,7 @@ footer p{
 	color: #fff;
 	padding: .55em;
 	text-align: center;
+	margin: 10 auto;
 }
 
 
@@ -165,7 +166,7 @@ footer p{
 	display: grid;
 	grid-template-columns: 33% 33% 33%;
 	grid-template-rows: 33% 33% 33%;
-	max-width: 300px;
+	max-width: 250px;
 }
 .tile {
     border: 1px solid white;
@@ -243,7 +244,7 @@ form{
  
  body {
 	line-height: 1;
-	width: 960px;
+	width: 1250px;
 	
 	margin: 0 auto;
 	font-family: Verdana, Geneva, sans-serif; 
@@ -296,3 +297,4 @@ form{
  
  
 /* end box quotes*/	
+
