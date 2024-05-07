@@ -4,8 +4,8 @@
       Project 05-04
 
       Project to display footnotes in a popup window
-      Author: 
-      Date:   
+      Author: Marlon Macklin
+      Date: 5/7/2024  
 
       Filename: footnotes.js
 */
